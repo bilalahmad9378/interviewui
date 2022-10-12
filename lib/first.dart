@@ -28,7 +28,7 @@ class first extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(top: 20, left: 10),
                 child: Text(
-                  'Welcome',
+                  'Welcome back ',
                   style: TextStyle(
                       fontSize: 30,
                       color: Colors.white,
