@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:interview/first.dart';
 import 'package:interview/firstscreen.dart';
 import 'package:interview/forgotpassword.dart';
+import 'package:interview/product.dart';
 import 'package:interview/second.dart';
 import 'package:interview/signin.dart';
 import 'package:interview/signup.dart';
