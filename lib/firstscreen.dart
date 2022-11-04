@@ -20,7 +20,7 @@ class firstscreen extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.only(left: 140, top: 50),
                 child: Text(
-                  'Welcome',
+                  'Welcome back',
                   style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
