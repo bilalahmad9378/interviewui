@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:interview/first.dart';
-import 'package:interview/firstscreen.dart';
-import 'package:interview/forgotpassword.dart';
-import 'package:interview/product.dart';
-import 'package:interview/second.dart';
-import 'package:interview/signin.dart';
-import 'package:interview/signup.dart';
-import 'package:interview/third.dart';
+import 'package:interview/Components/HomeScreen/HomeScreen.dart';
+// import 'package:interview/firstscreen.dart';
+import 'package:interview/Components/Forgottenpassword/forgotpassword.dart';
+import 'package:interview/Model/Product/product.dart';
+import 'package:interview/Components/Form/FormScreen.dart';
+import 'package:interview/Screens/Signin/signin.dart';
+import 'package:interview/Screens/Signup/signup.dart';
+// import 'package:interview/third.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const firstscreen(title: 'Flutter Demo Home Page'),
-      home: first(),
+      home: HomeScreen(),
       // first(),
     );
   }

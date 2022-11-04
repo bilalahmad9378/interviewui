@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:interview/signin.dart';
-import 'package:interview/third.dart';
+import 'package:interview/Screens/Signin/signin.dart';
+// import 'package:interview/third.dart';
 
-class second extends StatelessWidget {
-  const second({Key? key}) : super(key: key);
+class FormScreen extends StatelessWidget {
+  const FormScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

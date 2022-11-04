@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:interview/firstscreen.dart';
-import 'package:interview/second.dart';
+// import 'package:interview/firstscreen.dart';
+import 'package:interview/Components/Form/FormScreen.dart';
 
-class first extends StatelessWidget {
-  const first({Key? key}) : super(key: key);
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,19 +16,19 @@ class first extends StatelessWidget {
       //   centerTitle: true,
       // ),
       backgroundColor: Colors.black,
-      body: SingleChildScrollView(
-        child: Container(
-          width: size.width,
-          height: size.height,
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(37),
-              color: Colors.deepPurple[100]),
+      body: Container(
+        width: size.width,
+        height: size.height,
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(37),
+            color: Colors.deepPurple[100]),
+        child: SingleChildScrollView(
           child: Column(
             children: [
-              Padding(
-                padding: EdgeInsets.only(top: 20, left: 10),
+              const Padding(
+                padding: EdgeInsets.only(top: 60, left: 10),
                 child: Text(
-                  'Welcome back ',
+                  'Welcome  ',
                   style: TextStyle(
                       fontSize: 30,
                       color: Colors.white,
@@ -109,10 +109,10 @@ class first extends StatelessWidget {
                   Container(
                     height: 50,
                     width: 50,
-                    color: Colors.blue,
+                    // color: Colors.white,
                     child: GestureDetector(onTap: () {
                       Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => second(),
+                        builder: (context) => FormScreen(),
                       ));
                     }),
                   )

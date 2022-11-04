@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:interview/forgotpassword.dart';
-import 'package:interview/product.dart';
-import 'package:interview/signup.dart';
+import 'package:interview/Components/Forgottenpassword/forgotpassword.dart';
+import 'package:interview/Model/Product/product.dart';
+import 'package:interview/Screens/Signup/signup.dart';
 
 class signin extends StatelessWidget {
   const signin({Key? key}) : super(key: key);
@@ -15,16 +15,15 @@ class signin extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.black,
-        body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Container(
-                // height: 150,
-                width: size.width,
-                height: size.height,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(30),
-                    color: Colors.white),
+        body: Column(
+          children: [
+            Container(
+              // height: 150,
+              width: size.width,
+              height: size.height,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30), color: Colors.white),
+              child: SingleChildScrollView(
                 child: Column(
                   children: [
                     const SizedBox(
@@ -194,11 +193,11 @@ class signin extends StatelessWidget {
                   ],
                 ),
               ),
-              // SizedBox(
-              //   height: 10,
-              // ),
-            ],
-          ),
+            ),
+            // SizedBox(
+            //   height: 10,
+            // ),
+          ],
         ),
       ),
     );

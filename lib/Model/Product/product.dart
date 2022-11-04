@@ -23,8 +23,8 @@ class product extends StatelessWidget {
   ];
   List<int> productPrice = [10, 20, 30, 40, 50, 60, 70];
   List<String> productImage = [
-    'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.brivane.com%2Fproducts%2Fcantu-shear-butter-for-natural-hair-coconut-curling-cream&psig=AOvVaw0Rsbxf4j33jgDTOX-TFA2P&ust=1665646813523000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMjK44eY2voCFQAAAAAdAAAAABAI',
-    'https://www.brivane.com/products/cantu-shear-butter-for-natural-hair-coconut-curling-cream',
+    'https://image.shutterstock.com/image-photo/green-grape-leaves-isolated-on-600w-533487490.jpg',
+    'https://media.istockphoto.com/photos/cherry-trio-with-stem-and-leaf-picture-id157428769?s=612x612',
     'https://image.shutterstock.com/image-photo/green-grape-leaves-isolated-on-600w-533487490.jpg',
     'https://media.istockphoto.com/photos/banana-picture-id1184345169?s=612x612',
     'https://media.istockphoto.com/photos/cherry-trio-with-stem-and-leaf-picture-id157428769?s=612x612',

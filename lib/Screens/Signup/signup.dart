@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:interview/signin.dart';
+import 'package:interview/Screens/Signin/signin.dart';
 
 class signup extends StatelessWidget {
   const signup({Key? key}) : super(key: key);
@@ -12,15 +12,14 @@ class signup extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.black,
-        body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Container(
-                width: size.width,
-                height: size.height,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(30),
-                    color: Colors.white),
+        body: Column(
+          children: [
+            Container(
+              width: size.width,
+              height: size.height,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30), color: Colors.white),
+              child: SingleChildScrollView(
                 child: Column(
                   children: [
                     const SizedBox(
@@ -173,9 +172,9 @@ class signup extends StatelessWidget {
                     )
                   ],
                 ),
-              )
-            ],
-          ),
+              ),
+            )
+          ],
         ),
       ),
     );
